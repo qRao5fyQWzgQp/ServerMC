@@ -1,0 +1,6 @@
+Id: createdeco:zinc_sheet_metal
+Type: minecraft:crafting_shaped
+Json: {"type":"minecraft:crafting_shaped","category":"misc","key":{"m":{"tag":"c:zinc_plates"}},"pattern":["mm","mm"],"result":{"count":4,"item":"createdeco:zinc_sheet_metal"},"show_notification":true}
+Items: 
+	createdeco:zinc_sheet (#c:zinc_plates)
+

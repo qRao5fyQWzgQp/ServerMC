@@ -1,0 +1,79 @@
+# Last execution: 07-09-2024 06:33:45
+create:pressing {
+	createdeco:pressing/zinc_sheet
+		- createaddition:pressing/zinc_ingot
+		- createdeco:pressing/zinc_sheet
+
+}
+
+minecraft:blasting {
+	minecraft:coal_from_blasting_coal_ore
+		- minecraft:coal_from_blasting_coal_ore
+		- minecraft:coal_from_blasting_deepslate_coal_ore
+
+	minecraft:copper_ingot_from_blasting_copper_ore
+		- minecraft:copper_ingot_from_blasting_copper_ore
+		- minecraft:copper_ingot_from_blasting_deepslate_copper_ore
+
+	minecraft:diamond_from_blasting_deepslate_diamond_ore
+		- minecraft:diamond_from_blasting_deepslate_diamond_ore
+		- minecraft:diamond_from_blasting_diamond_ore
+
+	minecraft:emerald_from_blasting_deepslate_emerald_ore
+		- minecraft:emerald_from_blasting_deepslate_emerald_ore
+		- minecraft:emerald_from_blasting_emerald_ore
+
+	minecraft:gold_ingot_from_blasting_deepslate_gold_ore
+		- minecraft:gold_ingot_from_blasting_deepslate_gold_ore
+		- minecraft:gold_ingot_from_blasting_gold_ore
+		- minecraft:gold_ingot_from_blasting_nether_gold_ore
+
+	minecraft:iron_ingot_from_blasting_deepslate_iron_ore
+		- minecraft:iron_ingot_from_blasting_deepslate_iron_ore
+		- minecraft:iron_ingot_from_blasting_iron_ore
+
+	minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore
+		- minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore
+		- minecraft:lapis_lazuli_from_blasting_lapis_ore
+
+}
+
+minecraft:crafting_shapeless {
+	mythicmetals:crafting/copper_nugget
+		- create:crafting/materials/copper_nugget
+		- mythicmetals:crafting/copper_nugget
+
+}
+
+minecraft:smelting {
+	minecraft:coal_from_smelting_coal_ore
+		- minecraft:coal_from_smelting_coal_ore
+		- minecraft:coal_from_smelting_deepslate_coal_ore
+
+	minecraft:copper_ingot_from_smelting_copper_ore
+		- minecraft:copper_ingot_from_smelting_copper_ore
+		- minecraft:copper_ingot_from_smelting_deepslate_copper_ore
+
+	minecraft:diamond_from_smelting_deepslate_diamond_ore
+		- minecraft:diamond_from_smelting_deepslate_diamond_ore
+		- minecraft:diamond_from_smelting_diamond_ore
+
+	minecraft:emerald_from_smelting_deepslate_emerald_ore
+		- minecraft:emerald_from_smelting_deepslate_emerald_ore
+		- minecraft:emerald_from_smelting_emerald_ore
+
+	minecraft:gold_ingot_from_smelting_deepslate_gold_ore
+		- minecraft:gold_ingot_from_smelting_deepslate_gold_ore
+		- minecraft:gold_ingot_from_smelting_gold_ore
+		- minecraft:gold_ingot_from_smelting_nether_gold_ore
+
+	minecraft:iron_ingot_from_smelting_deepslate_iron_ore
+		- minecraft:iron_ingot_from_smelting_deepslate_iron_ore
+		- minecraft:iron_ingot_from_smelting_iron_ore
+
+	minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore
+		- minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore
+		- minecraft:lapis_lazuli_from_smelting_lapis_ore
+
+}
+
